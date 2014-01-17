@@ -1,3 +1,3 @@
 LearnRails::Application.routes.draw do
-    root to: redirect('visitors#new')
+    root to: ('visitors#new')
 end
