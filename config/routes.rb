@@ -1,3 +1,4 @@
 LearnRails::Application.routes.draw do
-    root to: ('visitors#new')
+  post 'contact', to: 'contacts#process_form'
+  root to: ('visitors#new')
 end
